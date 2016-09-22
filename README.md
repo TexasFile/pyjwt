@@ -3,10 +3,10 @@ This is work in progress to add two features:
    requires using multiple audiences. In our case, the `client_id` for any Single Page 
    Apps is actually set as the audience. The problem is that since we can only set one audience this means none of our services can 
    can communicate as authenticated service-to-service since the single page app will have a different audience.   
-   This issue can be reference here jpadilla/pyjwt#205
+   This issue can be reference [here](https://github.com/jpadilla/pyjwt/issues/205)
 
  - allowing JSON web Keys to be used with rs256 (which has already been completed by the awesome @mark-adams) but has not yet been 
-   merged into master as they're waiting for version 2. The PR for this issue can found here jpadilla/pyjwt#202
+   merged into master as they're waiting for version 2. The PR for this issue can found [here](https://github.com/jpadilla/pyjwt/pull/202)
    > A note on this - we have successfully built from this branch `add-jwk-for-hmac-rsa` and are able to use the json web key (jwk) 
      to verify the signatures of the JWTs. 
 
