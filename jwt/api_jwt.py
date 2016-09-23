@@ -26,7 +26,7 @@ class PyJWT(PyJWS):
             'verify_exp': True,
             'verify_nbf': True,
             'verify_iat': True,
-            'verify_aud': False,  # quick test, not actual solution
+            'verify_aud': True,
             'verify_iss': True,
             'require_exp': False,
             'require_iat': False,
